@@ -167,5 +167,3 @@ Bun is a **credible, fast, developer-focused** platform that competes with Node 
 - [Node.js documentation](https://nodejs.org/docs/latest/api/)
 
 ---
-
-*This guide is educational. Runtime details and compatibility change over time; always check the official docs for your version.*
