@@ -1,7 +1,7 @@
 # Bun: A Practical Guide
 
 <p align="center">
-  <img src="assets/bun.png" alt="Bun logo" width="160" />
+  <img src="assets/bun.jpg" alt="Bun logo" width="160" />
 </p>
 
 A plain-language overview for developers who are new to the ecosystem, plus a short **senior take** at the end for trade-offs and decision-making.
@@ -166,4 +166,3 @@ Bun is a **credible, fast, developer-focused** platform that competes with Node 
 - [Bun official documentation](https://bun.sh/docs)
 - [Node.js documentation](https://nodejs.org/docs/latest/api/)
 
----
