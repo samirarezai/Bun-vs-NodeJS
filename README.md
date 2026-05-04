@@ -10,7 +10,7 @@ A plain-language overview for developers who are new to the ecosystem, plus a sh
 
 ## What is Bun?
 
-**Bun** is an all-in-one toolkit for JavaScript and TypeScript on the server and in tooling. Think of it as several tools you might already know—rolled into one program:
+**Bun** is an all-in-one toolkit for JavaScript and TypeScript on the server and in tooling. Think of it as several tools you might already know, rolled into one program:
 
 | If you know… | Bun offers something similar |
 |--------------|------------------------------|
@@ -31,7 +31,7 @@ You do **not** have to use every part. Many teams use Bun only as a package mana
 
 - Executes JavaScript and **TypeScript without a separate compile step** in the common case.
 - Aims to be **largely compatible** with Node.js APIs (`fs`, `path`, `http`, etc.) so many existing scripts and libraries work with little or no change.
-- Some packages that rely on **native addons** or deep Node/V8 behavior may need fixes or alternatives—compatibility is strong but not 100%.
+- Some packages that rely on **native addons** or deep Node/V8 behavior may need fixes or alternatives. Compatibility is strong but not 100%.
 
 ### 2. Manage dependencies (package manager)
 
@@ -86,10 +86,10 @@ Same language (JavaScript), **different engine** underneath. That is why:
 
 No one can predict the future perfectly, but these trends are useful to keep in mind:
 
-1. **Maturing compatibility** — More npm packages and Node APIs work over time; gaps usually shrink with each release.
-2. **Ecosystem choice** — Teams may standardize on “Bun everywhere,” “Bun for installs only,” or “Node in production, Bun locally.” All of these are common patterns while the ecosystem settles.
-3. **Competition is healthy** — Node.js continues to evolve (performance, TypeScript story, built-in tools). Bun pushes the whole space forward; both can coexist for years.
-4. **Production readiness** — Many companies run Bun in production; others stay on Node for policy, support, or native-module reasons. **Your** future depends on your org’s risk tolerance and what your dependencies support.
+1. **Maturing compatibility**: More npm packages and Node APIs work over time; gaps usually shrink with each release.
+2. **Ecosystem choice**: Teams may standardize on “Bun everywhere,” “Bun for installs only,” or “Node in production, Bun locally.” All of these are common patterns while the ecosystem settles.
+3. **Competition is healthy**: Node.js continues to evolve (performance, TypeScript story, built-in tools). Bun pushes the whole space forward; both can coexist for years.
+4. **Production readiness**: Many companies run Bun in production; others stay on Node for policy, support, or native-module reasons. **Your** future depends on your org’s risk tolerance and what your dependencies support.
 
 **For juniors:** It is reasonable to learn **Node concepts first** (modules, `package.json`, async I/O) because they transfer to Bun. Learning Bun afterward is mostly learning *new commands* and *small differences*, not a whole new world.
 
@@ -110,7 +110,7 @@ No one can predict the future perfectly, but these trends are useful to keep in 
 
 ### When juniors often reach for each
 
-- **Default to Node** if your course, team, or deployment platform **standardizes on Node**—fewer surprises.
+- **Default to Node** if your course, team, or deployment platform **standardizes on Node**; fewer surprises.
 - **Try Bun** when you want **faster installs**, a **single tool**, or the team has **checked** that your stack works on Bun.
 
 ### Commands you might compare
@@ -151,13 +151,13 @@ This section is for tech leads, staff engineers, and anyone choosing a platform 
 
 ### Pragmatic strategies teams use
 
-- **Bun as package manager only** (`bun install`) with Node running the app—low risk, quick win on install time.
-- **Bun in dev, Node in prod** until confidence is high—common middle ground.
-- **Full Bun** when dependencies are green and ops sign off—reasonable for many greenfield services.
+- **Bun as package manager only** (`bun install`) with Node running the app: low risk, quick win on install time.
+- **Bun in dev, Node in prod** until confidence is high: common middle ground.
+- **Full Bun** when dependencies are green and ops sign off: reasonable for many greenfield services.
 
 ### Bottom line
 
-Bun is a **credible, fast, developer-focused** platform that competes with Node on ergonomics and speed. Node remains the **default compatibility and hiring baseline**. The best choice is usually **the one your dependencies, platform, and team can support**—with a path to revisit as both runtimes evolve.
+Bun is a **credible, fast, developer-focused** platform that competes with Node on ergonomics and speed. Node remains the **default compatibility and hiring baseline**. The best choice is usually **the one your dependencies, platform, and team can support**, with a path to revisit as both runtimes evolve.
 
 ---
 
